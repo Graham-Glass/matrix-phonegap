@@ -1,4 +1,4 @@
-var appVersion = '1.00';
+var appVersion = '1.01';
 
 var store = window.localStorage;
 //var domain = 'edu-20.com:3000';
@@ -13,8 +13,8 @@ var isPageLoaded = false;
 var pageReloadCount = 0;
 var maxRetriesReached = false;
 var fowardLink = '';
-var schoolDomain = '';
-var schoolProtocol = 'http';
+var schoolDomain = domain;
+var schoolProtocol = domainProtocol;
 var loggedIn = false;
 var fileToUpload = '';
 var pushToken = '';
