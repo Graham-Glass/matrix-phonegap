@@ -854,7 +854,8 @@ var app = {
         $('#contentFrame').attr('src', schoolProtocol + '://' + schoolDomain + '/');
     },
     registerNotifications: function() {
-        if (pushToken.length) {
+        var pushToken = store.getItem('pushToken');
+        if (pushToken) {
             app.storeToken(pushToken);
         } else {
             try {
@@ -874,7 +875,7 @@ var app = {
                 }
                 pushNotification.register(function(deviceToken) {
                     if (!navigator.userAgent.match(/Android/i)) {
-                    	pushToken = deviceToken;
+                    	store.setItem('pushToken', deviceToken);
                         app.storeToken(deviceToken);
                     }
                     console.log(JSON.stringify(['registerDevice', deviceToken]));
@@ -891,7 +892,7 @@ var app = {
             case 'registered':
                 if (e.regid.length > 0) {
                     console.log('Reg ID: ' + e.regid);
-                    pushToken = e.regid;
+                    store.setItem('pushToken', e.regid);
                     app.storeToken(e.regid);
                 }
                 break;
