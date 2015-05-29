@@ -4,7 +4,7 @@
 	xmlns:gap="http://phonegap.com/ns/1.0" 
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="com.matrixlms.app2.android" 
-	version="1.0.2">
+	version="1.0.3">
     <name>MATRIX</name>
     <description>
         Get the full functionality of MATRIX LMS by using the iOS Mobile App. MATRIX is a simple, powerful LMS for businesses that makes it easy to deliver online training.
@@ -66,6 +66,7 @@
 	<gap:plugin name="com.chanthu.evri.gcs-file-transfer" version="1.0.0" />
 	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
 	<gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+	<gap:plugin name="org.apache.cordova.media" />
 	<gap:config-file platform="android" parent="/manifest">
      <application android:debuggable="false" />
 	</gap:config-file>
