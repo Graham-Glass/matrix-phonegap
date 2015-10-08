@@ -13,7 +13,6 @@
         MATRIX LMS Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-    <preference name='phonegap-version' value='cli-5.2.0' />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -63,10 +62,10 @@
     <content src="index.html" />
 	<gap:platform name="android" />
 	<gap:plugin name="org.li8.inappbrowser" version="0.1" />
-	<gap:plugin name="org.apache.cordova.file" />
+	<gap:plugin name="org.apache.cordova.file" version="1.0.1" />
 	<gap:plugin name="com.chanthu.evri.gcs-file-transfer" version="1.0.0" />
-	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
-	<gap:plugin name="org.apache.cordova.network-information" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
+	<gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
 	<gap:plugin name="org.apache.cordova.media" />
 	<gap:config-file platform="android" parent="/manifest">
      <application android:debuggable="true" />
