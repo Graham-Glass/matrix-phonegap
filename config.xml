@@ -68,6 +68,7 @@
 	<gap:plugin name="cordova-plugin-pushplugin" source="npm" version="2.5.10" />
 	<gap:plugin name="cordova-plugin-network-information" source="npm" version="1.0.1" />
 	<gap:plugin name="cordova-plugin-media" source="npm" version="1.0.1" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.0.0" />
 	<gap:config-file platform="android" parent="/manifest">
      <application android:debuggable="true" />
 	</gap:config-file>
