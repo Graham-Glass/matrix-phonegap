@@ -4,7 +4,7 @@
 	xmlns:gap="http://phonegap.com/ns/1.0" 
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	id="com.matrixlms.app2.android" 
-	version="1.0.3">
+	version="1.0.5">
     <name>MATRIX</name>
     <description>
         Get the full functionality of MATRIX LMS by using the iOS Mobile App. MATRIX is a simple, powerful LMS for businesses that makes it easy to deliver online training.
