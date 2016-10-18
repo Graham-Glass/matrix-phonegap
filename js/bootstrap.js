@@ -1,7 +1,7 @@
 var appVersion = '1.05';
 
 var store = window.localStorage;
-var domain = 'edu-20.com:3000';
+var domain = 'www.edu-20.com:3000';
 //var domain = 'www.matrixlms.com';
 //var domain = 'www.neolms.com';
 var domainProtocol = 'http';
